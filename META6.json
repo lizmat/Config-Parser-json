@@ -10,7 +10,8 @@
         "JSON::Tiny"
     ],
     "test-depends" : [
-        "Test::META"
+        "Test::META",
+        "Config"
     ],
     "provides" : {
         "Config::Parser::json" : "lib/Config/Parser/json.pm6"
