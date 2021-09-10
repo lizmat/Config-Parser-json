@@ -15,4 +15,4 @@ is($config.get<tags>, ['A', 'B'], "attribute 'tags' read correctly");
 ok($config.get("notthere") === Nil, "get nonexistent key returns nil");
 ok($config.get("notthere", "def") === "def", "get nonexistant key with default returns default value");
 
-done-testing;
+# vim: expandtab shiftwidth=4

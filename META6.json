@@ -1,21 +1,29 @@
 {
-    "perl" : "6.*",
-    "name" : "Config::Parser::json",
-    "version" : "0.1.0",
-    "description" : "A JSON parser for Config",
-    "authors" : [
-        "Robert Lemmen"
-    ],
-    "depends" : [
-        "JSON::Tiny"
-    ],
-    "test-depends" : [
-        "Test::META",
-        "Config"
-    ],
-    "provides" : {
-        "Config::Parser::json" : "lib/Config/Parser/json.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "source-url" : "https://github.com/robertlemmen/perl6-config-json.git"
+  "auth": "zef:lizmat",
+  "authors": [
+    "Robert Lemmen",
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "A JSON parser for Config",
+  "license": "Artistic-2.0",
+  "name": "Config::Parser::json",
+  "perl": "6.*",
+  "provides": {
+    "Config::Parser::json": "lib/Config/Parser/json.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Config-Parser-JSON.git",
+  "tags": [
+  ],
+  "test-depends": [
+    "Test::META",
+    "Config"
+  ],
+  "version": "2.0.0"
 }
